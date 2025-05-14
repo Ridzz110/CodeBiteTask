@@ -100,7 +100,7 @@ export default function Hero2() {
             </motion.div>
             <div className='md:order-2 order-1 flex md:flex-row flex-col md:justify-center justify-start items-center  '>
                 <div className="flex flex-col justify-start items-center h-full md:pb-20 md:mr-10">
-                    <div className='w-48 h-64 rounded-3xl mb-10'>
+                    <div className='w-48 md:h-64 h-48 rounded-3xl mb-10'>
                         <motion.img
                         
                         initial={{ opacity: 0, scale: 0.9 }}
@@ -111,7 +111,7 @@ export default function Hero2() {
                         src={donut1} alt="donut1" 
                         className='w-full h-full rounded-3xl object-cover border border-grey-hero' />
                     </div>
-                    <div className='w-48 h-64 rounded-3xl'>
+                    <div className='w-48 md:h-64 h-48 rounded-3xl'>
                         <motion.img 
                         
                         initial={{ opacity: 0, scale: 0.9 }}
@@ -123,8 +123,8 @@ export default function Hero2() {
                         className='w-full h-full rounded-3xl object-cover border border-grey-hero' />
                     </div>
                 </div>
-                <div className="flex flex-col justify-end items-center h-full ">
-                    <div className='w-48 h-64 rounded-3xl mb-10'>
+                <div className="flex flex-col justify-end items-center h-full mt-10 md:mt-0">
+                    <div className='w-48 md:h-64 h-48 rounded-3xl mb-10'>
                         <motion.img 
                         
                         initial={{ opacity: 0, scale: 0.9 }}
@@ -135,7 +135,7 @@ export default function Hero2() {
                         src={donut3} alt="donut3" 
                         className='w-full h-full rounded-3xl object-cover border border-grey-hero' />
                     </div>
-                    <div className='w-48 h-64 rounded-3xl'>
+                    <div className='w-48 md:h-64 h-48 rounded-3xl'>
                         <motion.img
                         
                         initial={{ opacity: 0, scale: 0.9 }}
