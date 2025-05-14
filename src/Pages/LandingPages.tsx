@@ -5,9 +5,9 @@ import logo2 from '../assets/Logo-grey1.png';
 import logo3 from '../assets/Logo-grey2.png';
 import logo4 from '../assets/Logo-grey3.png';
 import logo5 from '../assets/Logo-grey4.png';
-import shapes from '../assets/shapes.png';
-import vector from '../assets/vector.png';
-import shape2 from '../assets/shapes2.png';
+import shapes from '../assets/Shapes.png';
+import vector from '../assets/Vector.png';
+import shape2 from '../assets/Shapes2.png';
 import mobile from '../assets/Mobile-App-Placeholder-2.png'
 import user from '../assets/User Thumb.png'
 import { ArrowRight } from 'lucide-react';
