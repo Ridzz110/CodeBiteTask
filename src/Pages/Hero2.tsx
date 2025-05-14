@@ -102,23 +102,23 @@ export default function Hero2() {
                 <div className="flex flex-col justify-start items-center h-full md:pb-20 md:mr-10">
                     <div className='w-48 h-64 rounded-3xl mb-10'>
                         <motion.img
-                        loading="lazy"
+                        
                         initial={{ opacity: 0, scale: 0.9 }}
                         whileInView={{ opacity: 1, scale: 1 }}
                         transition={{ duration: 0.3, delay: 1 * 0.1 }}
                         whileHover={{ scale: 1.05 }}
-                        viewport={{ once: true, amount: 0.5  }}
+                        viewport={{ once: true }}
                         src={donut1} alt="donut1" 
                         className='w-full h-full rounded-3xl object-cover border border-grey-hero' />
                     </div>
                     <div className='w-48 h-64 rounded-3xl'>
                         <motion.img 
-                        loading="lazy"
+                        
                         initial={{ opacity: 0, scale: 0.9 }}
                         whileInView={{ opacity: 1, scale: 1 }}
                         transition={{ duration: 0.4, delay: 2 * 0.1 }}
                         whileHover={{ scale: 1.05 }}
-                        viewport={{ once: true, amount: 0.5  }}
+                        viewport={{ once: true}}
                         src={donut2} alt="donut2" 
                         className='w-full h-full rounded-3xl object-cover border border-grey-hero' />
                     </div>
@@ -126,23 +126,23 @@ export default function Hero2() {
                 <div className="flex flex-col justify-end items-center h-full ">
                     <div className='w-48 h-64 rounded-3xl mb-10'>
                         <motion.img 
-                        loading="lazy"
+                        
                         initial={{ opacity: 0, scale: 0.9 }}
                         whileInView={{ opacity: 1, scale: 1 }}
                         transition={{ duration: 0.5, delay: 3 * 0.1 }}
                         whileHover={{ scale: 1.05 }}
-                        viewport={{ once: true, amount: 0.5  }}
+                        viewport={{ once: true }}
                         src={donut3} alt="donut3" 
                         className='w-full h-full rounded-3xl object-cover border border-grey-hero' />
                     </div>
                     <div className='w-48 h-64 rounded-3xl'>
                         <motion.img
-                        loading="lazy" 
+                        
                         initial={{ opacity: 0, scale: 0.9 }}
                         whileInView={{ opacity: 1, scale: 1 }}
                         transition={{ duration: 0.6, delay: 4 * 0.1 }}
                         whileHover={{ scale: 1.05 }}
-                        viewport={{ once: true, amount: 0.5  }}
+                        viewport={{ once: true  }}
                         src={donut4} alt="donut4" 
                         className='w-full h-full rounded-3xl object-cover border border-grey-hero' />
                     </div>
