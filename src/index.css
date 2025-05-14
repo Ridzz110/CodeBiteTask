@@ -1,0 +1,102 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background: #ffffff;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: white;
+  text-decoration: inherit;
+}
+
+body {
+  margin: 0;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  padding: 0.6em 2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+ 
+@theme {
+  --color-navy : #0F172A;
+  --color-grey: #191F2E;
+  --color-purple: #9333EA;
+  --color-purple-dark: #581C87;
+  --font-avenir-heavy: 'Avenir', sans-serif;
+  --font-avenir-light: 'Avenir light', sans-serif;
+  --color-grey-hero: #252525;
+  --font-lato-regular: 'Lato-regular', sans-serif;
+  --font-lato-bold: 'Lato-bold', sans-serif;
+  --color-pastel-blue: #C0D9DD;
+  --color-pastel-orange: #FFC671;
+  --color-pastel-pink: #F9DEEC;
+}
+
+
+
+@font-face {
+  font-family: 'Avenir';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url('/fonts/AvenirLTStd-Heavy.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Avenir light';
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url('/fonts/AvenirLTStd-Roman.otf') format('opentype');
+}
+.lato-regular {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lato-bold {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.btn-circle {
+  border-radius: 9999px !important; /* Fully rounded */
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
