@@ -1,5 +1,5 @@
 import Navbar from "../Components/navbar";
-import Desktop from '../assets/desktop.png';
+import Desktop from '../assets/Desktop.png';
 import logo1 from '../assets/Logo-grey.png';
 import logo2 from '../assets/Logo-grey1.png';
 import logo3 from '../assets/Logo-grey2.png';
